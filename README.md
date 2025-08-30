@@ -35,9 +35,9 @@
     ```
 
 - `Inheritance` − derives from another class. inherited class is defined by using the `extends` keyword. - supports single inheritance
-  - আপনার বাবা কখনো একসাথে দুজন হবে না এটাকে বলে ("OOP doesn’t allow multiple inheritance")
-  - আপনার দাদা -> বাবা -> আপনি... (Multi level)
-  - এখন একজন বাবার একাদিন সন্তান তো থাকতে পারে তাহলে?
+  - Your father can never be two at the same time, it's called ("OOP doesn't allow multiple inheritance")
+  - Your grandfather -> father -> you... (Multi level)
+  - Now, can a father have only one child?
   [Inheritance 1](http://www.expertphp.in/images/articles/ArtImggenVOY_types-of-inheritance.jpg)
   [Inheritance 2](https://digitaldattatrey.medium.com/what-is-inheritance-in-php-cc3748815971)
   <p align="center"><a href="http://www.expertphp.in/images/articles/ArtImggenVOY_types-of-inheritance.jpg" target="_blank"><img src="http://www.expertphp.in/images/articles/ArtImggenVOY_types-of-inheritance.jpg" width="400" alt="Inheritance"></a></p>
@@ -162,9 +162,9 @@
 - `Polymorphism` −
 
 - `Overloading` −
-- `Data Abstraction` − সারসংক্ষেপ করা | 
+- `Data Abstraction` − To summarize |
                      - Abstract classes and methods  when the parent class has a named method, 
-                     but need its child class to fill out the tasks.
+                        but need its child class to fill out the tasks.
                      - abstract class is a class that contains at least one abstract method. 
                      - abstract method is a method that is declared, but not implemented in the code.
     ```php
@@ -407,9 +407,9 @@
 
 - `Namespaces` -PHP Namespaces are the way of encapsulating items so that same names can be reused without name conflicts.
                 - Namespaces allows classes / functions / constants of same name be used in different contexts without any conflict
-   * এনক্যাপসুলেশন অর্থ গোপনীয়তা। 
-   অন্য কোন অব্জেক্ট থেকে কোন ক্লাসের ডেটা লুকোনো বা সরাসরি ব্যবহার থেকে বিরত রাখা ই এনক্যাপসুলেশন। 
-   অর্থাৎ কোন ক্লাসের ডেটা বা মেথড কে প্রাইভেট করে রাখার প্রক্রিয়া-ই এনক্যাপসুলেশন ।
+   * Encapsulation means privacy.
+     Encapsulation is the act of hiding the data of a class from another object or preventing it from being used directly.
+     That is, encapsulation is the process of keeping the data or methods of a class private.
    
 - 4 Pillars of OOP: i) Encapsulation ii) Abstraction iii) Inheritance iv) Polymorphism
 
